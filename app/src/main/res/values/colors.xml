@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ============================================== -->
+    <!-- COLORES CORPORATIVOS / PRINCIPALES             -->
+    <!-- ============================================== -->
+    <color name="planet_green">#1B4D3E</color>
+    <color name="planet_green_light">#2ECC71</color>
+    <color name="planet_accent">#E0E2B3</color>
+    <color name="planet_dark_border">#143D31</color>
+
+    <!-- ============================================== -->
+    <!-- PALETA GENERAL (NEUTRALES Y MONOCROMÁTICOS)    -->
+    <!-- ============================================== -->
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="gray_light">#F5F5F5</color>
+    <color name="gray_medium">#9E9E9E</color>
+    <color name="gray_dark">#212121</color>
+    <color name="brokenwhite">#A6ABBF</color>
+
+    <!-- ============================================== -->
+    <!-- ESTADOS (ÉXITO, ERROR, ADVERTENCIA)            -->
+    <!-- ============================================== -->
+    <color name="success_green">#4CAF50</color>
+    <color name="error_red">#F44336</color>
+    <color name="warning_yellow">#FF9800</color>
+    <color name="info_blue">#2196F3</color>
+
+    <!-- ============================================== -->
+    <!-- COLORES ESPECÍFICOS DE TEXTOS                  -->
+    <!-- ============================================== -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#BDBDBD</color>
+    <!-- Modern Lavender -->
+    <color name="purple_background">#F5F3FF</color>
+    <color name="purple_surface">#FFFFFF</color>
+    <color name="purple_primary">#7C3AED</color>
+    <color name="purple_primary_dark">#5B21B6</color>
+    <color name="purple_primary_light">#DDD6FE</color>
+    <color name="purple_secondary">#A78BFA</color>
+    <color name="purple_selected">#EDE9FE</color>
+    <color name="purple_text">#1F1635</color>
+    <color name="purple_text_secondary">#716A80</color>
+    <color name="purple_border">#DDD6FE</color>
+
+    <!-- Premium Violet -->
+    <color name="premium_background">#F8F5FF</color>
+    <color name="premium_primary">#6D28D9</color>
+    <color name="premium_dark">#4C1D95</color>
+    <color name="premium_light">#C4B5FD</color>
+
+    <!-- Electric Violet -->
+    <color name="electric_background">#F6F1FF</color>
+    <color name="electric_primary">#6717FF</color>
+    <color name="electric_dark">#4B00CC</color>
+    <color name="electric_light">#D8C5FF</color>
+
+    <!-- Dark Plum -->
+    <color name="plum_background">#171123</color>
+    <color name="plum_surface">#241A35</color>
+    <color name="plum_primary">#A855F7</color>
+    <color name="plum_secondary">#D8B4FE</color>
+    <color name="plum_text">#F9F5FF</color>
+    <color name="plum_text_secondary">#C4B5D5</color>
+
+</resources>

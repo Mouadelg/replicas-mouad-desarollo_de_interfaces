@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/plum_background"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/plusjakartasans"
+        android:text="Sign up"
+        android:textColor="@color/brokenwhite"
+        android:textSize="50sp"
+        android:gravity="center"
+        />
+
+    <Space
+        android:layout_width="20dp"
+        android:layout_height="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/plusjakartasans"
+        android:text="WHO YOU ARE?"
+        android:textColor="@color/gray_medium"
+        android:gravity="center"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="20dp"
+        android:layout_height="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/father_holding_child"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Parent"
+                android:fontFamily="@font/plusjakartasans"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/child"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Child"
+                android:fontFamily="@font/plusjakartasans"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/school_hat"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Teacher"
+                android:fontFamily="@font/plusjakartasans"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="20dp"
+        android:layout_height="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Username"
+        android:textColorHint="@color/gray_medium"
+        android:drawableStart="@drawable/usernameicon"
+        android:drawablePadding="20dp"
+        android:paddingLeft="20dp"
+        android:background="@drawable/input_loginstyle_whoareyou"
+        android:fontFamily="@font/plusjakartasans"
+        android:gravity="center_vertical"/>
+
+    <Space
+        android:layout_width="20dp"
+        android:layout_height="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Email"
+        android:textColorHint="@color/gray_medium"
+        android:drawableStart="@drawable/emailicon"
+        android:drawablePadding="20dp"
+        android:paddingLeft="20dp"
+        android:background="@drawable/input_loginstyle_whoareyou"
+        android:fontFamily="@font/plusjakartasans"
+        android:gravity="center_vertical"/>
+
+    <Space
+        android:layout_width="20dp"
+        android:layout_height="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Password"
+        android:textColorHint="@color/gray_medium"
+        android:drawableStart="@drawable/password"
+        android:drawablePadding="20dp"
+        android:paddingLeft="20dp"
+        android:background="@drawable/input_loginstyle_whoareyou"
+        android:fontFamily="@font/plusjakartasans"
+        android:gravity="center_vertical"/>
+
+    <Space
+        android:layout_width="20dp"
+        android:layout_height="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Confirm Password"
+        android:textColorHint="@color/gray_medium"
+        android:drawableStart="@drawable/password"
+        android:drawablePadding="20dp"
+        android:paddingLeft="20dp"
+        android:background="@drawable/input_loginstyle_whoareyou"
+        android:fontFamily="@font/plusjakartasans"
+        android:gravity="center_vertical"/>
+
+    <Space
+        android:layout_width="20dp"
+        android:layout_height="20dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="SIGN UP"
+        android:fontFamily="@font/plusjakartasans"
+        android:textColor="@color/white"
+        android:background="@drawable/button_signup_style"
+        app:backgroundTint="@null"
+        android:stateListAnimator="@null"
+        android:insetTop="0dp"
+        android:insetBottom="0dp" />
+
+    <Space
+        android:layout_width="20dp"
+        android:layout_height="20dp"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an account?"
+            android:fontFamily="@font/plusjakartasansitalic"
+            android:textColor="@color/white"/>
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/plusjakartasans"
+            android:text="Login here"
+            android:textColor="#E67B12"
+
+/>
+    </LinearLayout>
+        
+
+</LinearLayout>
